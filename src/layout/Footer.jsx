@@ -1,4 +1,4 @@
-import Logo from "../components/logo"
+import Logo from "../components/Logo"
 
 import { FaFacebookF, FaWhatsapp, FaYoutube, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";

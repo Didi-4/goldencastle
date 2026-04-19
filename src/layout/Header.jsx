@@ -1,5 +1,5 @@
 import Nav from "../components/Nav.jsx";
-import Logo from "../components/logo.jsx";
+import Logo from "../components/Logo.jsx";
 
 const Header = () => {
     console.log('Header component rendered');
