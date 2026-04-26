@@ -6,7 +6,7 @@ const  imageFacility3 = "https://res.cloudinary.com/dadane1xo/image/upload/q_aut
 
 export default function facility() {
   return (
-    <div className="bg-secondary p-10">
+    <div className="bg-secondary py-4">
         <h1 className="text-3xl font-bold text-center text-primary ">Our Facility</h1>
             <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8  p-10  items-center text-xl">
                 <div className="w-full  text-secondary font-bold flex flex-col items-center shadow-lg shadow-black/50">

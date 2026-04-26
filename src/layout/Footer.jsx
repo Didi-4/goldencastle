@@ -18,6 +18,7 @@ export default function Footer() {
 
             <div className="text-primary flex mb-2 items-center gap-2">
               <FaPhoneAlt className="text-2xl" />
+              
               <div>
                 <p>+234 803 5008 212</p>
                 <p>+234 703 6400 522</p>

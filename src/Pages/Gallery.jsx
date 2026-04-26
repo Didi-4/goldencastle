@@ -22,46 +22,50 @@ export default function Gallery() {
   return (
     <>
         <Header/>
-         <Carousel  autoPlay infiniteLoop={true} showThumbs={true} showStatus={true} interval={3000} className="p-10 bg-background" >
-              <div className="after:absolute after:inset-0 after:bg-black/50">
-                      <img loading="lazy" width="100%" height="100%" src={Image1} alt="Slide 1" />
-              </div>
+         <section className="w-full h-full bg-background p-10">
+                <p className="p-4 text-primary bg-secondary text-center uppercase font-bold">The first edition of the cultural event</p>
+                <Carousel  autoPlay infiniteLoop={true} showThumbs={true} showStatus={true} interval={3000} className=" bg-secondary shadow-lg shadow-black/50" >
+               
+                        <div className="after:absolute after:inset-0 after:bg-black/50">
+                                <img loading="lazy" width="100%" height="100%" src={Image1} alt="Slide 1" />
+                        </div>
 
-              <div className="after:absolute after:inset-0 after:bg-black/50">
-                      <img loading="lazy" width="100%" height="100%" src={Image2} alt="Slide 1" />
-              </div>
+                        <div className="after:absolute after:inset-0 after:bg-black/50">
+                                <img loading="lazy" width="100%" height="100%" src={Image2} alt="Slide 1" />
+                        </div>
 
-              <div className="after:absolute after:inset-0 after:bg-black/50">
-                      <img loading="lazy" width="100%" height="100%"  src={Image3} alt="Slide 1" />
-              </div>
+                        <div className="after:absolute after:inset-0 after:bg-black/50">
+                                <img loading="lazy" width="100%" height="100%"  src={Image3} alt="Slide 1" />
+                        </div>
 
-              <div className="after:absolute after:inset-0 after:bg-black/50">
-                      <img loading="lazy" width="100%" height="100%" src={Image4} alt="Slide 1" />
-              </div>
+                        <div className="after:absolute after:inset-0 after:bg-black/50">
+                                <img loading="lazy" width="100%" height="100%" src={Image4} alt="Slide 1" />
+                        </div>
 
-              <div className="after:absolute after:inset-0 after:bg-black/50">
-                      <img loading="lazy" width="100%" height="100%" src={Image5} alt="Slide 1" />
-              </div>
+                        <div className="after:absolute after:inset-0 after:bg-black/50">
+                                <img loading="lazy" width="100%" height="100%" src={Image5} alt="Slide 1" />
+                        </div>
 
-              <div className="after:absolute after:inset-0 after:bg-black/50">
-                      <img loading="lazy" width="100%" height="100%" src={Image6} alt="Slide 1" />
-              </div>
+                        <div className="after:absolute after:inset-0 after:bg-black/50">
+                                <img loading="lazy" width="100%" height="100%" src={Image6} alt="Slide 1" />
+                        </div>
 
-              <div className="after:absolute after:inset-0 after:bg-black/50">
-                      <img loading="lazy" width="100%" height="100%" src={Image7} alt="Slide 1" />
-              </div>
+                        <div className="after:absolute after:inset-0 after:bg-black/50">
+                                <img loading="lazy" width="100%" height="100%" src={Image7} alt="Slide 1" />
+                        </div>
 
-              <div className="after:absolute after:inset-0 after:bg-black/50">
-                      <img loading="lazy" width="100%" height="100%" src={Image8} alt="Slide 1" />
-              </div>
+                        <div className="after:absolute after:inset-0 after:bg-black/50">
+                                <img loading="lazy" width="100%" height="100%" src={Image8} alt="Slide 1" />
+                        </div>
 
-              <div className="after:absolute after:inset-0 after:bg-black/50">
-                      <img loading="lazy" width="100%" height="100%" src={Image9} alt="Slide 1" />
-              </div>
+                        <div className="after:absolute after:inset-0 after:bg-black/50">
+                                <img loading="lazy" width="100%" height="100%" src={Image9} alt="Slide 1" />
+                        </div>
 
               
 
-         </Carousel>
+                </Carousel>
+         </section>
          <Footer/>
       </>
   )

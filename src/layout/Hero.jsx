@@ -5,7 +5,7 @@ import { FaRegUser } from "react-icons/fa6";
 export default function Hero() {
   return (
     <>
-    <div className="relative">
+    <div className="relative w-full h-full">
         <div className="absolute z-5 w-full h-full gap-4 px-5 font-logoFont text-accent text-base flex flex-col justify-center gap-2 lg:w-3/4">
             <h1 className="text-xl sm:text-4xl  md:text-5xl lg:text-6xl font-bold ">Build Future Leaders with Excellence and Integrity
             </h1>
