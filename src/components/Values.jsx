@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 import About from "../Pages/About";
 
 
-import aboutImage from "../assets/shoolfrontgate.png";
+const  aboutImage = "https://res.cloudinary.com/dadane1xo/image/upload/q_auto/f_auto/v1777222544/shoolfrontgate_x1klhb.png";
 
 export default function Values() {
   return (

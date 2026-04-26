@@ -6,10 +6,10 @@ import { MdEmail } from "react-icons/md";
 export default function Footer() {
   return (
     <>
-        <div className="bg-secondary p-10 grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div className="w-full bg-secondary p-10 grid grid-cols-1 md:grid-cols-3 gap-5">
           <Logo />
 
-          <div className="w-full border-l-2 text-primary pl-10">
+          <div className="border-l-2 text-primary pl-10">
             <h1 className="text-primary mb-5 font-bold text-2xl">Contact Us</h1>
             <div className="text-primary mb-2  flex items-center gap-2">
               <FaMapMarkerAlt className="text-2xl" />

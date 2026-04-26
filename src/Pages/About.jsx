@@ -7,7 +7,7 @@ import { FaBrain } from "react-icons/fa";
 
 
 
-import aboutImage from "../assets/shoolfrontgate.png";
+const  aboutImage = "https://res.cloudinary.com/dadane1xo/image/upload/q_auto/f_auto/v1777222544/shoolfrontgate_x1klhb.png";
 // NAV CALL
 import Header from "../layout/Header"
 
@@ -15,7 +15,7 @@ export default function About() {
   return (
         <>
             <Header/>
-              <div className="relative w-full p-10 bg-background">
+              <div className="w-full p-10 bg-background">
             
                 <div className=" grid grid-cols-1 md:grid-cols-2 gap-4 mt-8  text-xl">
                     <div className="h-full w-full">
