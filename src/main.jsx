@@ -28,7 +28,7 @@ import MusicAndArts from "./Pages/public/MusicAndArts.jsx";
 
 // AUTH PAGES
 import AdminLogin from "./Pages/auth/AdminLogin.jsx";
-import StudentLogin from "./Pages/auth/studentLogin.jsx";
+import StudentLogin from "./Pages/auth/StudentLogin.jsx";
 
 // DASHBOARD PAGES
 import StudentDashboard from "./Pages/student/StudentDashboard.jsx";
