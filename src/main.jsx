@@ -10,7 +10,7 @@ import { AuthProvider } from "./context/AuthProvider.jsx";
 
 // LAYOUT
 import App from "./App.jsx";
-import "./app.css";
+import "./App.css";
 
 // PUBLIC PAGES
 import Home from "./Pages/public/Home.jsx";
@@ -36,10 +36,10 @@ import StudentLayout from "./Pages/student/StudentLayout.jsx";
 import StudentResult from "./Pages/student/StudentResult.jsx";
 import AdminDashboard from "./Pages/admin/AdminDashboard.jsx";
 import AdminLayout from "./Pages/admin/AdminLayout.jsx";
-import ClassManagement from "./Pages/admin/classManagement.jsx";
+import ClassManagement from "./Pages/admin/ClassManagement.jsx";
 import ClassCoverage from "./Pages/admin/ClassCoverage.jsx";
-import StudentManagement from "./Pages/admin/studentManagement.jsx";
-import UploadResult from "./Pages/admin/uploadResult.jsx";
+import StudentManagement from "./Pages/admin/StudentManagement.jsx";
+import UploadResult from "./Pages/admin/UploadResult.jsx";
 
 // ROUTE PROTECTION
 import ProtectedRoute from "./routes/ProtectedRoute.jsx";
