@@ -130,7 +130,6 @@ const router = createBrowserRouter([
         path: "login",
         element: <AdminLogin />,
   },
-
   {
         path: "student-login",
         element: <StudentLogin />,
